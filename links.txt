@@ -1,0 +1,2 @@
+Dataset : https://github.com/yumouwei/camvid_unet_semantic_segmentation/tree/main
+Model trained : https://drive.google.com/file/d/1uV4FqhwA2j1MaYuFt4SWeg3TVImVj48h/view?usp=drive_link
