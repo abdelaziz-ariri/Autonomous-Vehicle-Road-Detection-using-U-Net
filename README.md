@@ -3,41 +3,61 @@
 
 ---
 
+## 👥 Project Authors
+
+This project was developed by:  
+- **Abdelaziz Ariri**  
+- **Othmane Hilal**
+
+---
+
 ## 📌 Project Overview
 
-This project implements a **real-time semantic segmentation system** for **autonomous vehicle road detection** using the **U-Net deep learning architecture**.  
-The model performs **pixel-wise classification** to identify key urban elements such as roads, sidewalks, vehicles, pedestrians, and infrastructure from driving videos.
+The rapid advancement of autonomous driving systems requires accurate understanding of the surrounding environment. This project implements a **real-time semantic segmentation system** specifically designed for **road and urban scene detection** using the **U-Net deep learning architecture**.  
 
-The system is designed to be:
-- **Accurate** (multi-class segmentation)
-- **Efficient** (real-time video inference)
-- **Modular** (easy to train, evaluate, and deploy)
+The system performs **pixel-level classification**, identifying essential elements in driving scenes, such as:
+- Roads  
+- Sidewalks  
+- Vehicles  
+- Pedestrians  
+- Urban infrastructure (buildings, traffic signs, etc.)
+
+By leveraging deep learning techniques, the system aims to improve **road perception** and **decision-making capabilities** for autonomous vehicles.
 
 ---
 
 ## ✨ Key Features
 
 - **U-Net Architecture**  
-  Encoder–decoder structure with skip connections for precise spatial segmentation.
+  - Encoder–decoder structure with skip connections to preserve spatial information.  
+  - Efficient design for real-time segmentation without compromising accuracy.
 
 - **Real-Time Video Inference**  
-  Optimized inference pipeline with GPU (CUDA) support.
+  - Optimized pipeline for GPU acceleration (CUDA support).  
+  - Capable of processing high-resolution driving videos with minimal latency.
 
 - **Multi-View Visualization**
-  - **Original View:** Raw input video
-  - **Mask View:** Color-coded semantic segmentation
-  - **Overlay View:** Mask blended with original frame for spatial alignment
+  - **Original View:** Displays the raw video feed.  
+  - **Mask View:** Shows the semantic segmentation map with color-coded classes.  
+  - **Overlay View:** Combines the original video and segmentation mask for spatial alignment.
 
 - **Interactive Controls**
-  - Pause / Resume playback
-  - Save frames and masks
-  - Instant exit via keyboard shortcuts
+  - Pause / resume playback for frame-by-frame analysis.  
+  - Save frames and masks for dataset augmentation or evaluation.  
+  - Keyboard shortcuts for instant exit and control.
 
-- **CamVid Dataset Support**  
-  Built-in compatibility with the CamVid autonomous driving dataset.
+- **Dataset Support**
+  - Built-in support for the **CamVid dataset**, widely used for autonomous driving research.  
+  - Flexible pipeline to allow extension to other driving datasets.
+
+- **Evaluation Metrics**
+  - Supports standard segmentation metrics like **IoU (Intersection over Union)** and **pixel accuracy** for model performance assessment.
 
 ---
 
-## 📂 Project Structure
-<img width="537" height="251" alt="image" src="https://github.com/user-attachments/assets/9ffe5964-d8a2-4522-83e5-8f1c66e317cc" />
+## 🛠️ Project Structure
+
+
+<img width="537" height="251" alt="Project Structure" src="https://github.com/user-attachments/assets/9ffe5964-d8a2-4522-83e5-8f1c66e317cc" />
+
 
